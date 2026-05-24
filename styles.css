@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+html {
+    min-height: 100%;
+    background-image: url("images/background.png");
+    background-repeat: repeat-x;
+    background-attachment:fixed;
+    background-position: bottom;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    min-height: 100%;
+    width: 95%;
+    min-width:1000px;
+    max-width:1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-title {
+    margin-top:170px;
+}
+
+nav {
+    top:1px;
+    position:absolute;
+    left:0px;
+    width:100%;
+    font-weight: bold;
+    border: 2px solid rgb(108, 167, 90);
+    background-color:rgb(152, 200, 137);
+    border-radius: 20px;
+    text-align: center;
+}
+
+nav a {
+display:block;
+width: 100%;
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+    background-color: rgb(214, 63, 13);
+}
+
+
+#interests {
+    font-weight:bold;
+    min-width: 220px;
+}
+
+.interestOptions {
+    list-style-image: url("images/circle.png");
+    display:inline-block;
+    text-align: left;
+
+}
+
+.logo {
+    float:left;
+    width: 300px;
+    margin-top:-120px;
+    margin-left:20%;
+    margin-bottom:80px; 
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.top, .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left, .right {    
+    width: 48%;
+    padding: 20px;
+    border: 2px solid rgb(108, 167, 90);
+    border-radius:10px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    clear: both;
+    gap: 40px;
+    padding: 20px;
+    text-align: left;
+    border: 2px solid rgb(108, 167, 90);
+    border-radius:10px;
+}
+
+.trips img{
+    width: 400px;
+    height: auto;
+}
+
+.trips {
+    display:flex;
+    justify-content: space-around;
+    padding-bottom:100px;
+}
